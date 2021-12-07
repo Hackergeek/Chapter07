@@ -10,7 +10,7 @@ buildscript {
 
     dependencies {
         // classpath
-        classpath 'com.android.tools.build:gradle:3.2.1'
+        classpath 'com.android.tools.build:gradle:4.2.2'
         classpath ("com.geektime.systrace:systrace-gradle-plugin:1.0") { changing = true }
 
     }

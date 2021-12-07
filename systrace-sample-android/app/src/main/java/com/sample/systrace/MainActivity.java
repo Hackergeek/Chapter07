@@ -22,12 +22,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Button button = findViewById(R.id.test_gc);
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(final View v) {
-                TestIgnoreFile.TestGc();
-            }
-        });
+        button.setOnClickListener(v -> TestIgnoreFile.TestGc());
     }
 
 }
